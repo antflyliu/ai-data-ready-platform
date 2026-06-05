@@ -12,4 +12,10 @@ env/
 ENV/
 .venv*/
 
-docs/
+# Local run artifacts
+.cleanrag/
+.tmp/
+
+# Keep large/source research materials local, but track curated project docs.
+docs/*.pdf
+docs/从 ChatGPT-OpenDataLoader PDF分析到 AI Data Readiness Platform.md
